@@ -1,0 +1,31 @@
+{
+  "name": "after-examples-basic",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "razzle start",
+    "build": "razzle build",
+    "test": "razzle test --env=jsdom",
+    "start:prod": "NODE_ENV=production node build/server.js"
+  },
+  "dependencies": {
+    "@jaredpalmer/after": "latest",
+    "after": "^0.8.2",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "prettier": "^2.2.1",
+    "razzle": "^3.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.0.0",
+    "react-router-dom": "^5.2.0",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
