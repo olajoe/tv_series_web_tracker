@@ -9,17 +9,21 @@
     "start:prod": "NODE_ENV=production node build/server.js"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.4.2",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
     "@jaredpalmer/after": "latest",
     "after": "^0.8.2",
     "axios": "^0.21.1",
     "express": "^4.17.1",
+    "framer-motion": "^4",
     "prettier": "^2.2.1",
+    "prop-types": "^15.7.2",
     "razzle": "^3.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.0.0",
-    "react-router-dom": "^5.2.0",
-    "tailwindcss": "^2.0.3"
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
